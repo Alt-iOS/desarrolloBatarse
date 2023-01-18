@@ -27,3 +27,6 @@ hs_err_pid*
 
 #avoid intellij files being uploaded
 *.idea/
+
+#avoid uploading binaries
+target/

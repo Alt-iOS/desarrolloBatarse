@@ -5,12 +5,13 @@ public class ReporteA {
     String info;
 
     public ReporteA() {
-        //this.info = DBConnect.getInstanceOpen().info;
+        DBConnect.getInstance();
     }
 
-    public void print(){
-         System.out.println(this.info);
+    public String update (String query) {
+        return "Query: " + query + " updated";
     }
+
 
 
 }

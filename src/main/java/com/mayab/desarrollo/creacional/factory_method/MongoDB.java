@@ -1,6 +1,10 @@
 package com.mayab.desarrollo.creacional.factory_method;
 
 public class MongoDB implements DB_connector {
+
+    public MongoDB() {
+        System.out.println("MongoDB created");
+    }
     public void connect() {
         System.out.println("Connected to MongoDB");
     }

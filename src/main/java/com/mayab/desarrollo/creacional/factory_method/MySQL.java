@@ -11,8 +11,8 @@ public class MySQL implements DB_connector {
     public void disconnect() {
         System.out.println("Disconnected from MySQL");
     }
-    public void runQuery() {
-        System.out.println("Running query on MySQL");
+    public void runQuery(String table) {
+        System.out.println("Running query on MySQL on table:" + table);
     }
     public void createQuery() {
         System.out.println("Creating query on MySQL");

@@ -9,9 +9,9 @@ public class DB_relacional extends DB_Creator {
         if(type.equals("MySQL")) {
             return new MySQL();
         }
-      //  else if(type.equals("Oracle")) {
-        //    return new Oracle();
-       // }
+        else if(type.equals("Oracle")) {
+            return new Oracle();
+       }
         else {
             return null;
         }

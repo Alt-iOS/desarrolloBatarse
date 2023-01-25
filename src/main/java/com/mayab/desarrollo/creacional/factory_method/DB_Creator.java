@@ -9,7 +9,7 @@ public abstract class DB_Creator {
         DB_connector db = create_DB(this.type);
         db.connect();
         db.createQuery();
-        db.runQuery();
+        db.runQuery(tabla);
         db.disconnect();
     }
 }

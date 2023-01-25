@@ -12,7 +12,7 @@ public class MongoDB implements DB_connector {
         System.out.println("Disconnected from MongoDB");
     }
     public void runQuery(String table) {
-        System.out.println("Running query on MongoDB");
+        System.out.println("Running query on MongoDB on table:" + table);
     }
     public void createQuery() {
         System.out.println("Creating query on MongoDB");

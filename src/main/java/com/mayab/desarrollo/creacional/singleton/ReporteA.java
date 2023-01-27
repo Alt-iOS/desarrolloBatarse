@@ -2,7 +2,7 @@ package com.mayab.desarrollo.creacional.singleton;
 
 public class ReporteA {
 
-    String info;
+    private String info;
 
     public ReporteA() {
         DBConnect.getInstance();

@@ -1,10 +1,20 @@
 package com.mayab.desarrollo.comportamiento.adapter;
+import java.time.*;
+import java.time.temporal.ChronoUnit;
 
 public class AdaptA implements Dept{
 
+    private String name;
+    DeptB deptB;
+
+    public AdaptA(DeptB deptB){
+        this.name = deptB.getName() + "" + deptB.getLastName();
+        this.deptB = deptB;
+    }
     @Override
     public void print() {
-
+        System.out.println("Nombre: " + name);
+        System.out.println("Edad: "+ getEdad());
     }
 
     @Override
@@ -14,6 +24,7 @@ public class AdaptA implements Dept{
 
     @Override
     public int getEdad() {
-        return 0;
+        long age = ChronoUnit.YEARS.between(deptB.bornDate, LocalDate.now());
+        return (int) age;
     }
 }

@@ -25,9 +25,6 @@ hs_err_pid*
 #Ammending to avoid .DS_Store files
 *.DS_Store
 
-#avoid intellij files being uploaded
-*.idea/
-
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -40,3 +37,10 @@ hs_err_pid*
 
 #avoid uploading binaries
 target/
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# IntelliJ
+out/
+.idea

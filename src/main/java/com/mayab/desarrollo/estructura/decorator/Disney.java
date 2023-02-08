@@ -2,15 +2,19 @@ package com.mayab.desarrollo.estructura.decorator;
 
 public class Disney extends ReciboDecorator{
 
-    public Disney(){}
-
-    @Override
-    public String des(String descripcion) {
-        return descripcion + "DisneyPlus\n";
+    public Disney(Recibo recibo){
+        this.recibo=recibo;
+        this.costo = 100;
+        this.descrip =  "\nDisney";
     }
 
     @Override
-    public float cost(float costo) {
-        return costo + 100;
+    public String descr() {
+        return recibo.descr()+ this.descrip;
+    }
+
+    @Override
+    public float costo() {
+        return recibo.costo()+ this.costo;
     }
 }

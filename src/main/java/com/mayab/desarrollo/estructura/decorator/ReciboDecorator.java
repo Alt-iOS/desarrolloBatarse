@@ -1,7 +1,8 @@
 package com.mayab.desarrollo.estructura.decorator;
 
-public abstract class ReciboDecorator {
-    public abstract String des(String descripcion);
+public abstract class ReciboDecorator extends Recibo {
 
-    public abstract float cost(float costo);
+    public Recibo recibo;
+    public abstract String descr();
+    public abstract float costo();
 }

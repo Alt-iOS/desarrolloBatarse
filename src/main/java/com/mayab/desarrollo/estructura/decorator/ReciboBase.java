@@ -5,8 +5,7 @@ public class ReciboBase extends Recibo{
     public ReciboBase(String fecha){
         this.fecha=fecha;
         this.costo=200;
-        this.descrip= "El servicio incluye: \n" +
-                "telefonía \n";
+        this.descrip= "El servicio incluye: \ntelefonía";
     }
 
     @Override

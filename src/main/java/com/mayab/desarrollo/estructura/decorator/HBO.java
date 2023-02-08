@@ -2,14 +2,19 @@ package com.mayab.desarrollo.estructura.decorator;
 
 public class HBO extends ReciboDecorator{
 
-    public HBO(){}
-    @Override
-    public String des(String descripcion) {
-        return descripcion + "HBO\n";
+    public HBO(Recibo recibo){
+        this.recibo=recibo;
+        this.costo = 100;
+        this.descrip =  "\nHBO";
     }
 
     @Override
-    public float cost(float costo) {
-        return costo + 100;
+    public String descr() {
+        return recibo.descr()+ this.descrip;
+    }
+
+    @Override
+    public float costo() {
+        return recibo.costo()+ this.costo;
     }
 }

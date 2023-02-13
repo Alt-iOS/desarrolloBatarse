@@ -7,7 +7,7 @@ public class Main {
         Recibo TEST = new ReciboBase("12/02/2023");
         System.out.println(TEST.descr());
         System.out.println("Con un costo de "+TEST.costo());
-        //Prueba de cada decorator, uno encima de otro
+        //Prueba de cada decorator, uno encima de otro, uno a la vez
         Recibo ConDisney = new Disney(TEST);
         System.out.println(ConDisney.descr());
         System.out.println("Con un costo de "+ConDisney.costo());

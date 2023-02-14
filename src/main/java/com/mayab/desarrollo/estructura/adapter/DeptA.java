@@ -1,4 +1,4 @@
-package com.mayab.desarrollo.comportamiento.adapter;
+package com.mayab.desarrollo.estructura.adapter;
 
 public class DeptA implements Dept{
     private String name;

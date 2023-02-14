@@ -1,4 +1,4 @@
-package com.mayab.desarrollo.comportamiento.adapter;
+package com.mayab.desarrollo.estructura.adapter;
 import java.time.*;
 
 public class DeptB {

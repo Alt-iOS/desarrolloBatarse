@@ -20,6 +20,5 @@ public class BrowserO implements ObserverV{
     @Override
     public void setFlag(Object price) {
         this.price = (int)price;
-        this.s.updateObservers();
     }
 }

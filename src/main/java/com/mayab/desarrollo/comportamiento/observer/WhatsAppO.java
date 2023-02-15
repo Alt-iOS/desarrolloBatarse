@@ -11,7 +11,6 @@ public class WhatsAppO implements ObserverV{
     @Override
     public void setFlag(Object price) {
         this.price = (int)price;
-        this.s.updateObservers();
     }
     @Override
     public void update() {

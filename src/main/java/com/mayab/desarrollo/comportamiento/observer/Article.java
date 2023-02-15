@@ -6,7 +6,7 @@ import java.util.List;
 public class Article implements Subject{
 
     private int price;
-    private List<ObserverV> observers = new ArrayList<>();
+    private List<ObserverV> observers = new ArrayList<ObserverV>();
     @Override
     public void setFlag(Object price) {
         this.price = (int)price;

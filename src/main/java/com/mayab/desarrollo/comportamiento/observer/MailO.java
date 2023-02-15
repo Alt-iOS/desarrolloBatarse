@@ -7,11 +7,15 @@ public class MailO implements ObserverV{
         this.s =s;
         s.registerObserver(this);
         this.price = price;
-
+    }
+    @Override
+    public void setFlag(Object price) {
+        this.price = (int)price;
+        this.s.updateObservers();
     }
     @Override
     public void update() {
-        if ((int)s.getFlag()<this.price){
+        if ((int)s.getFlag()>this.price){
             System.out.println("Mail dice: El articulo ha bajado a menos de "+ this.price);
         }
     }

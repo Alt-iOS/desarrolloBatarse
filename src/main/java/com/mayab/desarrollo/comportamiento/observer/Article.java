@@ -22,6 +22,7 @@ public class Article implements Subject{
         this.observers.add(o);
     }
 
+
     @Override
     public void removeObserver(ObserverV o) {
         this.observers.remove(o);

@@ -16,4 +16,10 @@ public class BrowserO implements ObserverV{
             System.out.println("Navegador dice: El articulo ha bajado a menos de "+ this.price);
         }
     }
+
+    @Override
+    public void setFlag(Object price) {
+        this.price = (int)price;
+        this.s.updateObservers();
+    }
 }

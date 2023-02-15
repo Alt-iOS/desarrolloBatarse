@@ -1,4 +1,4 @@
-package com.mayab.desarrollo.estructura.decorator;
+package com.mayab.desarrollo.estructural.decorator;
 
 public class HBO extends ReciboDecorator{
 

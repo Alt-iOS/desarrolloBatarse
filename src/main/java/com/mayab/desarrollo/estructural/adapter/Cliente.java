@@ -1,4 +1,4 @@
-package com.mayab.desarrollo.estructura.adapter;
+package com.mayab.desarrollo.estructural.adapter;
 
 import java.time.LocalDate;
 

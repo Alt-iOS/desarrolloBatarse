@@ -13,6 +13,7 @@ public class Main {
         Browser.setFlag(120);
         Mail.setFlag(120);
         WA.setFlag(120);
+        testSubject.setFlag(100);
 
     }
 }

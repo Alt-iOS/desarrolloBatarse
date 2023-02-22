@@ -2,12 +2,12 @@
 Este es un proyecto diseñado para mostrar implementaciones de distintos patrones de diseño.
 
 Para aquellos de tipo de comportamiento tenemos:\
-Observer
+Observer\
 <img width="1140" alt="Observer.png" src="https://user-images.githubusercontent.com/80638470/220762437-d816a442-1bc6-4438-8150-cbcda05ba9d5.png">\
 Strategy\
 <img width="858" alt="Strategy.png" src="https://user-images.githubusercontent.com/80638470/220762485-9ef2621c-e51c-4e61-bc49-d59a97317eb2.png">\
 Template\
-![Template.png](https://user-images.githubusercontent.com/80638470/219528743-2b4fd4e4-45e7-4c70-b1bb-18ee597b0c1b.png)
+![Template.png](https://user-images.githubusercontent.com/80638470/219528743-2b4fd4e4-45e7-4c70-b1bb-18ee597b0c1b.png)\
 
 Para los de tipo creacional:\
 Builder\
